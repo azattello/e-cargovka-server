@@ -34,8 +34,8 @@ app.use('/api/settings', settingsRouter)
 
 // HTTPS options
 const httpsOptions = {
-    key: fs.readFileSync('/etc/letsencrypt/live/nncargo.kz/privkey.pem'),
-    cert: fs.readFileSync('/etc/letsencrypt/live/nncargo.kz/fullchain.pem')
+    key: fs.readFileSync('/etc/letsencrypt/live/e-cargovka.kz/privkey.pem'),
+    cert: fs.readFileSync('/etc/letsencrypt/live/e-cargovka.kz/fullchain.pem')
 };
 
 const start = async () => {
